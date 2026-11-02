@@ -1,35 +1,20 @@
 {
-  "name": "@babel/traverse",
-  "version": "7.28.5",
-  "description": "The Babel Traverse module maintains the overall tree state, and is responsible for replacing, removing, and adding nodes",
-  "author": "The Babel Team (https://babel.dev/team)",
-  "homepage": "https://babel.dev/docs/en/next/babel-traverse",
-  "bugs": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20traverse%22+is%3Aopen",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
+  "name": "manga-web",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/babel/babel.git",
-    "directory": "packages/babel-traverse"
-  },
-  "main": "./lib/index.js",
   "dependencies": {
-    "@babel/code-frame": "^7.27.1",
-    "@babel/generator": "^7.28.5",
-    "@babel/helper-globals": "^7.28.0",
-    "@babel/parser": "^7.28.5",
-    "@babel/template": "^7.27.2",
-    "@babel/types": "^7.28.5",
-    "debug": "^4.3.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.5",
-    "@babel/helper-plugin-test-runner": "^7.27.1"
-  },
-  "engines": {
-    "node": ">=6.9.0"
-  },
-  "type": "commonjs"
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0"
+  }
 }
