@@ -1,19 +1,19 @@
-# @babel/plugin-transform-react-jsx-source
+# @babel/traverse
 
-> Add a __source prop to all JSX Elements
+> The Babel Traverse module maintains the overall tree state, and is responsible for replacing, removing, and adding nodes
 
-See our website [@babel/plugin-transform-react-jsx-source](https://babeljs.io/docs/babel-plugin-transform-react-jsx-source) for more information.
+See our website [@babel/traverse](https://babeljs.io/docs/babel-traverse) for more information or the [issues](https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20traverse%22+is%3Aopen) associated with this package.
 
 ## Install
 
 Using npm:
 
 ```sh
-npm install --save-dev @babel/plugin-transform-react-jsx-source
+npm install --save-dev @babel/traverse
 ```
 
 or using yarn:
 
 ```sh
-yarn add @babel/plugin-transform-react-jsx-source --dev
+yarn add @babel/traverse --dev
 ```
